@@ -1,0 +1,129 @@
+/************** ( 'Fuentes' ) **************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap");
+/************** ( 'Colores' ) **************/
+#principal header .logo-ppal {
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  #principal header .logo-ppal {
+    position: absolute;
+    z-index: 100;
+  }
+}
+#principal header nav button {
+  background-color: rgba(233, 129, 0, 0.9019607843);
+}
+#principal header nav li .active {
+  color: #ff1f1f;
+}
+#principal header nav li a {
+  color: rgba(233, 129, 0, 0.9019607843);
+}
+#principal header nav li a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-out;
+}
+
+#principal main .pizzas {
+  color: #ffffff;
+}
+#principal main .intro {
+  color: #ffffff;
+  text-align: justify;
+}
+#principal main .carousel .carousel-caption {
+  bottom: 0.25rem;
+}
+#principal main .carousel .carousel-item {
+  height: 85vh;
+  min-height: 50px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+#principal main .carousel .carousel-item img {
+  height: 90%;
+  width: auto;
+}
+#principal main .historia {
+  color: #ffffff;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  #principal main .historia {
+    margin-top: 75px;
+  }
+}
+#principal main .texto-historia {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  #principal main .texto-historia {
+    margin-bottom: 50px;
+  }
+}
+#principal main .mapa {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  margin: 30px auto 0 auto;
+}
+@media (min-width: 480px) {
+  #principal main .mapa {
+    width: 400px;
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  #principal main .mapa {
+    width: 600px;
+    height: 400px;
+  }
+}
+#principal main .formulario {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#principal main .video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#principal {
+  background: url("../assets/img/fondo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+footer {
+  color: #ffffff;
+}
+footer img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-out;
+}
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=app.css.map */
